@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Contacto</title>
+    <link rel="stylesheet" href="../css/estilo.css"/>
+</head>
+<div class="gridcontenedor">
+<body class="body">
+        <!-- esto genera un comentario -->
+        <!-- encabezado del sitio  -->
+   <header class="header">
+       <!-- logo  -->
+       <div class="logoyslogan">
+           <a href="../root/index.html" target="blank">
+           <img class="logo" src="../img/novanegrologo.png.png"width="100"/>
+           </a>
+           <h1 class="slogan">Si tu negocio no está en internet no existe</h1>
+       </div>
+       <!-- nav -->
+       <nav class="navbar">
+           <ul class="menu">
+               <li><a href= "../root/index.html" target="blank"> Inicio</a></li>
+               <li><a href= "../pages/SobreNosotros.html" target="blank"> Sobre nosotros</a></li>
+               <li><a href= "../pages/productos.html" target="blank"> Productos</a></li>
+               <li><a href= "../pages/contacto.html" target="blank"> Contacto</a></li>
+               <li><a href="../pages/PreguntasFrecuentes.html" target="blank"> Preguntas Frecuentes</a></li>
+           </ul>
+       </nav>
+   </header>
+    <main class="main">
+        <form action="/formulario" method="POST">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" placeholder="Nombre" type="text"/>
+    <br><br>
+            <label for="apellido">Apellido</label>
+            <input id="apellido" name="apellido" placeholder="Apellido"/>
+    <br><br>
+            <label for="comentario">Comentario</label>
+            <textarea id="comentario" placeholder="Ingrese comentario" name="comentario"></textarea>
+            <button type="submit">Enviar</button>
+</form>
+<h3>En caso de querer contactarse con nosotros acceda a nuestras redes sociales o haga click en el sobre</h3>
+<a href="mailto:ivanmihura@gmail.com">
+    <img src="../img/gmaillogo.png" width="25"/> 
+</a>
+</main>
+    <footer class="footer">
+        <div>
+            <!-- logo -->
+            <img src="../img/novavioletalogo.png.png"width="100" />
+        </div>
+        <!-- contacto -->
+        <div>
+            <ul class="listafooter">
+            <li><a href="https://www.facebook.com/Nova-Libreria-e-Insumos-101399461715408" target="blank">
+                <img src="../img/facebook logo.png" width="25"/> Facebook 
+            </a></li>
+            <br>
+            <li><a href="https://instagram.com/novalibreriainsumos?utm_medium=copy_link" target="blank">
+                <img src="../img/logo instagram.png" width="25"/> Instagram
+            </a></li>
+            </ul>
+            <h3 class="copyright">Copyright 2021</h3>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
