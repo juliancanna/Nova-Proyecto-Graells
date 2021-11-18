@@ -249,7 +249,10 @@ main div ul article ol h2{
     grid-column: 3/3;
     justify-content: right;
 }*/ 
-
+.maincontacto{
+    margin: 10px;
+    text-align: center;
+}
 /* GRID DE PRODUCTOS */
 .gridcontenedor{
     display: grid;
