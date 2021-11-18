@@ -1,6 +1,6 @@
 .header{
     height: auto;
-    background-color:rgb(243, 219, 187);
+    background-color:burlywood;
 }
 
 .logo{
@@ -353,7 +353,7 @@ main .presentacion h3{
 }
 .header{
     height: auto;
-    background-color:rgb(243, 219, 187);
+    background-color:burlywood;
 }
 .navbar{
     width: 98.7vw;
@@ -400,15 +400,16 @@ main .presentacion h3{
 }
 .logo{
     float: left;
-    width: 70px;
+    width: 305px;
     align-items: center;
+    margin-left: 40px;
 }
 
 .slogan {
     color:rgb(100, 77, 43);
     font-size: 30px;
     float: left;
-    margin-top: 60px;
+    margin-top: 20px;
     text-align: center;
     padding-left: 2px;
     max-width: 1000px;
