@@ -321,3 +321,153 @@ main .presentacion h3{
 }
 /* FIN GRID INDEX*/
 
+/*VISTA MOBILE INDEX*/
+@media only screen and (min-width: 0px) and (max-width: 768px){
+   /* .gridcontenedorindex{
+        display: grid;
+        grid-template-areas:
+        "logo"
+        "nav"
+        "main"
+        "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 150px 350px 200px;
+        width: 100vw;
+    }
+    header{
+        grid-area: logo;
+    }
+    nav{
+        grid-area: nav;
+    }
+    main{
+        grid-area: main;
+    }
+    footer{
+        grid-area: footer;
+    }
+*/
+.gridcontenedorindex{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: auto;
+    background-color:rgb(243, 219, 187);
+}
+.navbar{
+    width: 98.7vw;
+    background-color: burlywood;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    font-family: raleway;
+    text-transform: uppercase;
+}
+.menu { 
+    list-style-type: none;
+    padding: 0;
+    background-color: burlywood;
+    background-size: cover;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+    margin-right: 0%;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    float:left;
+    text-align: center;
+}
+
+.menu li{
+    text-align: center;
+    justify-content: center;
+}
+
+.menu li a:hover{
+    background: #ef8354;
+}
+.logo{
+    float: left;
+    width: 70px;
+    align-items: center;
+}
+
+.slogan {
+    color:rgb(100, 77, 43);
+    font-size: 30px;
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+    padding-left: 2px;
+    max-width: 1000px;
+    font-family: raleway;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.imagenmain{
+    width: 300px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.quienessomos{
+    color: lightsalmon;
+    font-size: 24px;
+    margin: 25px;
+    text-align: center;
+}
+
+.definicion{
+    color: rgb(5, 5, 5);
+    font-style: oblique;
+    font-size: 20px;
+    margin: 10px; 
+    text-align: center;
+}
+.listafooter{
+    list-style-type: none;
+    padding-left: 0;
+    float: right;
+}
+.listafooter li a{
+    text-decoration: none;
+    margin-right: 3rem;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.copyright{
+    margin: 0px;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+footer div img{
+    margin-left: 0.25rem;
+}
+
+footer li a:hover{
+    color: cornflowerblue;
+}
+
+.footer { 
+    background-color: #222;
+    padding-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
