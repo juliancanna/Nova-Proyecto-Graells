@@ -448,12 +448,14 @@ main .presentacion h3{
     margin-right: 3rem;
     color: #fff;
     transition: 0.3s;
+    font-size: 25px;
 }
 
 .copyright{
-    margin: 0px;
+    margin: 31px;
     color: #fff;
     margin-left: 1rem;
+    font-size: 25px;
 }
 
 footer div img{
@@ -471,4 +473,146 @@ footer li a:hover{
     flex-direction: column;
     align-items: center;
 }
+}
+
+/*FIN VISTA MOBILE INDEX*/
+
+/*VISTA MOBILE SOBRE NOSOTROS*/
+@media only screen and (min-width: 0px) and (max-width: 768px){
+    .gridcontenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        height: auto;
+        background-color:burlywood;
+    }
+    .navbar{
+        width: 98.7vw;
+        background-color: burlywood;
+        background-size: cover;
+        text-align: center;
+        font-weight: bold;
+        font-family: raleway;
+        text-transform: uppercase;
+    }
+    .menu { 
+        list-style-type: none;
+        padding: 0;
+        background-color: burlywood;
+        background-size: cover;
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: right;
+        margin-right: 0%;
+    }
+    
+    .menu li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: block;
+        float:left;
+        text-align: center;
+    }
+    
+    .menu li{
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .menu li a:hover{
+        background: #ef8354;
+    }
+    .logo{
+        float: left;
+        width: 305px;
+        align-items: center;
+        margin-left: 40px;
+    }
+    
+    .slogan {
+        color:rgb(100, 77, 43);
+        font-size: 30px;
+        float: left;
+        margin-top: 20px;
+        text-align: center;
+        padding-left: 2px;
+        max-width: 1000px;
+        font-family: raleway;
+    }
+    p{ 
+        /*margin-left: 1rem;*/
+        margin-inline: inherit;
+    }
+    
+    main div ul article ol h2{
+        text-align: left;
+    }
+    
+    .mainquienessomos{
+        transition: box-shadow 0.4s ease;
+        background-color: #fff;
+        margin: 1rem 18px;
+        border-radius: 0.70rem;
+        padding: 0.25rem 0;
+        cursor: pointer;
+        color:rgb(5, 5, 5)
+    }
+    .mainquienessomos:hover{
+        box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.30);
+    }
+    .quienessomos{
+        width: auto;
+        margin: 0 auto;
+    }
+    .listafooter{
+        list-style-type: none;
+        padding-left: 0;
+        float: right;
+    }
+    .listafooter li a{
+        text-decoration: none;
+        margin-right: 3rem;
+        color: #fff;
+        transition: 0.3s;
+        font-size: 25px;
+    }
+    
+    .copyright{
+        margin: 31px;
+        color: #fff;
+        margin-left: 1rem;
+        font-size: 25px;
+    }
+    
+    footer div img{
+        margin-left: 0.25rem;
+    }
+    
+    footer li a:hover{
+        color: cornflowerblue;
+    }
+    
+    .footer { 
+        background-color: #222;
+        padding-bottom: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* FIN VISTA MOBILE SOBRE NOSOTROS*/
+
+/* VISTA MOBILE PRODUCTOS*/
+@media only screen and (min-width: 0px) and (max-width: 768px){
+    
+
 }
