@@ -282,7 +282,10 @@ footer{
 }
 
 /* FIN GRID DE PRODUCTOS*/
-
+.maincontacto{
+    margin: 10px;
+    text-align: center;
+}
 /* GRID DE INDEX*/
 .gridcontenedorindex{
     display: grid;
