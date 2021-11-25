@@ -6,6 +6,8 @@
 .logo{
     float: left;
     width: 200px;
+    animation: swing;
+    animation-duration: 2s;
 }
 
 .slogan {
@@ -115,6 +117,8 @@ a:active {
 
 .menu li a:hover{
     background: #ef8354;
+    animation: shakeY ease-in;
+    animation-duration: 1s;
 }
 
 .listafooter{
@@ -169,6 +173,8 @@ main div article h3{
 
 .post:hover{
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.30);
+    transform: scale(1.05,1.05);
+    transition: all .6s;
 }
 
 .postpreguntas:hover{
