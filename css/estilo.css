@@ -296,7 +296,7 @@ footer{
     text-align: center;
 }
 /* GRID DE INDEX*/
-.gridcontenedorindex{
+/*.gridcontenedorindex{
     display: grid;
     grid-template-areas:
     "header header header header"
