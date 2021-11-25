@@ -13,7 +13,7 @@
 .slogan {
     color:rgb(100, 77, 43);
     font-size: 50px;
-    float: left;
+    /*float: left;*/
     margin-top: 60px;
     text-align: center;
     padding-left: 150px;
@@ -153,10 +153,10 @@ footer li a:hover{
     display: flow-root 
 }
 
-.container {
+/*.container {
     width: 400px;
     margin: 0 auto;
-}
+}*/
 
 .post{
     transition: box-shadow 0.3s ease;
@@ -181,10 +181,10 @@ main div article h3{
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.30);
 }
 
-.containerpreguntas{
+/*.containerpreguntas{
     width: cover;
     margin: 0 auto;
-}
+}*/
 
 .postpreguntas{
     transition: box-shadow 0.3s ease;
@@ -781,12 +781,12 @@ footer li a:hover{
         display: flex;
         flex-direction: column;
     }
-    .container {
+    /*.container {
         width: 380px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
-    }
+    }*/
     
     .post{
         transition: box-shadow 0.3s ease;
@@ -1037,10 +1037,10 @@ footer li a:hover{
         box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.30);
     }
     
-    .containerpreguntas{
+    /*.containerpreguntas{
         width: cover;
         margin: 0 auto;
-    }
+    }*/
     
     .postpreguntas{
         transition: box-shadow 0.3s ease;
