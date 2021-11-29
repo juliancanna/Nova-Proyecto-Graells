@@ -260,7 +260,7 @@ main div ul article ol h2{
     text-align: center;
 }
 /* GRID DE PRODUCTOS */
-.gridcontenedor{
+/*.gridcontenedor{
     display: grid;
     grid-template-areas:
     "header header header header"
@@ -328,7 +328,7 @@ main .presentacion h3{
 /* FIN GRID INDEX*/
 
 /* GRID SOBRE NOSOTROS*/
-.gridcontenedor{
+/*.gridcontenedor{
     display: grid;
     grid-template-areas:
     "header header header header"
@@ -353,7 +353,7 @@ footer{
 /* FIN GRID SOBRE NOSOTROS*/
 
 /*GRID CONTACTO*/
-.gridcontenedor{
+/*.gridcontenedor{
     display: grid;
     grid-template-areas:
     "header header header header"
@@ -385,7 +385,7 @@ footer{
 /*FIN GRID CONTACTO*/
 
 /*GRID PREGUNTAS FRECUENTES*/
-.gridcontenedor{
+/*.gridcontenedor{
     display: grid;
     grid-template-areas:
     "header header header header"
