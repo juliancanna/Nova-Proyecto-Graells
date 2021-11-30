@@ -125,6 +125,7 @@ a:active {
     list-style-type: none;
     padding-left: 0;
     float: right;
+    padding-top: 10px;
 }
 .listafooter li a{
     text-decoration: none;
@@ -194,6 +195,7 @@ main div article h3{
     padding: 0.25rem 0;
     cursor: pointer;
     overflow: hidden;
+    align-items: center;
 }
 
 p{ 
@@ -305,7 +307,7 @@ footer{
     "footer footer footer footer";
     grid-template-rows: auto;
     grid-template-columns: repeat(3, 33%);
-}
+}*/
 header{
     grid-area: header; 
     margin: 0px 0px;
@@ -320,11 +322,16 @@ header{
 
 main .presentacion h3{
     text-align: center;
+    justify-content: center;
 }
 
 .imagenmain{
     border-radius: 00.5rem;
     margin-left: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   /* padding-top: 10px;
+    padding-bottom: 10px;*/
 }
 /* FIN GRID INDEX*/
 
@@ -499,7 +506,7 @@ footer{
     float: left;
     width: 305px;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 22px;
 }
 
 .slogan {
@@ -534,6 +541,7 @@ footer{
     font-size: 20px;
     margin: 10px; 
     text-align: center;
+    justify-items: center;
 }
 .listafooter{
     list-style-type: none;
