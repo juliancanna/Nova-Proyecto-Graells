@@ -101,24 +101,34 @@ a:active {
     margin-right: 0%;
 }
 
-.menu li a{
+.menu{
+    li{
+         a{
     text-decoration: none;
     color: white;
     padding: 20px;
     display: block;
     float:left;
     text-align: center;
+            }
+    }
+
 }
+
 
 .menu li{
     text-align: center;
     justify-content: center;
 }
 
-.menu li a:hover{
+.menu{
+     li{
+          a:hover{
     background: #ef8354;
     animation: shakeY ease-in;
     animation-duration: 1s;
+          }
+     }
 }
 
 .listafooter{
