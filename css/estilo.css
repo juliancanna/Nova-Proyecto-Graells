@@ -26,7 +26,7 @@ footer {
 
 /* FIN GRID DE PRODUCTOS*/
 /* GRID DE INDEX*/
-.gridcontenedorindex {
+.gridcontenedorindex, .gridcontenedor {
   display: grid;
   grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
   grid-template-rows: auto;
@@ -52,12 +52,6 @@ main .presentacion h3 {
 
 /* FIN GRID INDEX*/
 /* GRID SOBRE NOSOTROS*/
-.gridcontenedor {
-  display: grid;
-  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
-  grid-template-rows: auto;
-  grid-template-columns: repeat(3, 33%); }
-
 header {
   grid-area: header;
   margin: auto; }
@@ -72,12 +66,6 @@ footer {
 
 /* FIN GRID SOBRE NOSOTROS*/
 /*GRID CONTACTO*/
-.gridcontenedor {
-  display: grid;
-  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
-  grid-template-rows: auto;
-  grid-template-columns: repeat(3, 33%); }
-
 header {
   grid-area: header;
   margin: auto; }
@@ -98,12 +86,6 @@ footer {
 
 /*FIN GRID CONTACTO*/
 /*GRID PREGUNTAS FRECUENTES*/
-.gridcontenedor {
-  display: grid;
-  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
-  grid-template-rows: auto;
-  grid-template-columns: repeat(3, 33%); }
-
 header {
   grid-area: header;
   margin: auto; }
@@ -149,7 +131,7 @@ footer {
          grid-area: footer;
      }
  */
-  .gridcontenedorindex {
+  .gridcontenedorindex, .gridcontenedor {
     display: flex;
     flex-direction: column; }
   .header {

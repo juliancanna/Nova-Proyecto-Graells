@@ -10,13 +10,20 @@
     animation-duration: 2s;
 }
 
+$estilos: (
+    color: rgb(100, 77, 43),
+    centro: center,
+    tFuente: 50px,
+    padding-left: 150px
+);
+
 .slogan {
-    color:rgb(100, 77, 43);
-    font-size: 50px;
+    color: map-get($estilos, color);
+    font-size: map-get($estilos, tFuente);
     float: left;
     margin-top: 60px;
-    text-align: center;
-    padding-left: 150px;
+    text-align: map-get($estilos, centro);
+    padding-left: map-get($estilos, padding-left);
     max-width: 1000px;
     font-family: raleway;
 }
@@ -163,9 +170,12 @@ footer li a:hover{
     display: flow-root 
 }
 
-.container {
+@mixin tamaño-container {
     width: 400px;
     margin: 0 auto;
+}
+.container {
+   @include tamaño-container();
 }
 
 .post{

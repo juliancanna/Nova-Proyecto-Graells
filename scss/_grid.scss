@@ -65,13 +65,7 @@ main .presentacion h3{
 
 /* GRID SOBRE NOSOTROS*/
 .gridcontenedor{
-    display: grid;
-    grid-template-areas:
-    "header header header header"
-    "main main main main"
-    "footer footer footer footer";
-    grid-template-rows: auto;
-    grid-template-columns: repeat(3, 33%);
+   @extend .gridcontenedorindex;
 }
 
 header{
@@ -90,13 +84,7 @@ footer{
 
 /*GRID CONTACTO*/
 .gridcontenedor{
-    display: grid;
-    grid-template-areas:
-    "header header header header"
-    "main main main main"
-    "footer footer footer footer";
-    grid-template-rows: auto;
-    grid-template-columns: repeat(3, 33%);
+   @extend .gridcontenedorindex;
 }
 
 header{
@@ -122,13 +110,7 @@ footer{
 
 /*GRID PREGUNTAS FRECUENTES*/
 .gridcontenedor{
-    display: grid;
-    grid-template-areas:
-    "header header header header"
-    "main main main main"
-    "footer footer footer footer";
-    grid-template-rows: auto;
-    grid-template-columns: repeat(3, 33%);
+    @extend .gridcontenedorindex;
 }
 
 header{
