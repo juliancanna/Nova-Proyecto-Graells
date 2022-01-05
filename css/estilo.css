@@ -123,11 +123,6 @@ a:active {
   color: #fff;
   margin-left: 1rem; }
 
-.copyrightindex {
-    margin: 0px;
-    color: #fff;
-    margin-left: 1rem; }
-
 footer div img {
   margin-left: 0.25rem; }
 
@@ -236,9 +231,7 @@ main div ul article ol h2 {
 /* GRID DE PRODUCTOS */
 .gridcontenedor {
   display: grid;
-  grid-template-areas: "header header header header"
- "main main main main"
- "footer footer footer footer";
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
   grid-template-rows: auto;
   grid-template-columns: repeat(3, 33%); }
 
@@ -264,9 +257,7 @@ footer {
 /* GRID DE INDEX*/
 .gridcontenedorindex, .gridcontenedor {
   display: grid;
-  grid-template-areas: "header header header header"
- "main main main main"
- "footer footer footer footer";
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
   grid-template-rows: auto;
   grid-template-columns: repeat(3, 33%); }
 
