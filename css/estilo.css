@@ -302,6 +302,15 @@ main .presentacion h3 {
     color: #fff;
     margin-left: 5rem; }
 
+    .sloganindex {
+      color: #644d2b;
+      font-size: 30px;
+      margin-top: 60px;
+      text-align: center;
+      padding-left: 10px;
+      max-width: 1000px;
+      font-family: raleway; }
+
 
 /* FIN GRID INDEX*/
 /* GRID SOBRE NOSOTROS*/
