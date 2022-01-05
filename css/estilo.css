@@ -19,6 +19,16 @@
   max-width: 1000px;
   font-family: raleway; }
 
+  .sloganindex {
+    color: #644d2b;
+    font-size: 50px;
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+    padding-left: 150px;
+    max-width: 1000px;
+    font-family: raleway; }
+
 @font-face {
   font-family: raleway;
   src: url(../fuentes/Raleway-SemiBold.ttf); }
@@ -231,7 +241,9 @@ main div ul article ol h2 {
 /* GRID DE PRODUCTOS */
 .gridcontenedor {
   display: grid;
-  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+  grid-template-areas: "header header header header"
+ "main main main main"
+ "footer footer footer footer";
   grid-template-rows: auto;
   grid-template-columns: repeat(3, 33%); }
 
@@ -257,7 +269,9 @@ footer {
 /* GRID DE INDEX*/
 .gridcontenedorindex, .gridcontenedor {
   display: grid;
-  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+  grid-template-areas: "header header header header"
+ "main main main main"
+ "footer footer footer footer";
   grid-template-rows: auto;
   grid-template-columns: repeat(3, 33%); }
 
