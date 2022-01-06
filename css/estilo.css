@@ -19,15 +19,6 @@
   max-width: 1000px;
   font-family: raleway; }
 
-  .sloganindex {
-    color: #644d2b;
-    font-size: 50px;
-    margin-top: 60px;
-    text-align: center;
-    padding-left: 150px;
-    max-width: 1000px;
-    font-family: raleway; }
-
 @font-face {
   font-family: raleway;
   src: url(../fuentes/Raleway-SemiBold.ttf); }
@@ -131,11 +122,6 @@ a:active {
   margin: 0px;
   color: #fff;
   margin-left: 1rem; }
-
-  .copyrightindex {
-    margin: 0px;
-    color: #fff;
-    margin-left: 30rem; }
 
 footer div img {
   margin-left: 0.25rem; }
@@ -245,9 +231,7 @@ main div ul article ol h2 {
 /* GRID DE PRODUCTOS */
 .gridcontenedor {
   display: grid;
-  grid-template-areas: "header header header header"
- "main main main main"
- "footer footer footer footer";
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
   grid-template-rows: auto;
   grid-template-columns: repeat(3, 33%); }
 
@@ -273,9 +257,7 @@ footer {
 /* GRID DE INDEX*/
 .gridcontenedorindex, .gridcontenedor {
   display: grid;
-  grid-template-areas: "header header header header"
- "main main main main"
- "footer footer footer footer";
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
   grid-template-rows: auto;
   grid-template-columns: repeat(3, 33%); }
 
@@ -296,21 +278,6 @@ main .presentacion h3 {
 .imagenmain {
   border-radius: 00.5rem;
   margin-left: 7px; }
-
-  .copyrightindex {
-    margin: 0px;
-    color: #fff;
-    margin-left: 5rem; }
-
-    .sloganindex {
-      color: #644d2b;
-      font-size: 50px;
-      margin-top: 60px;
-      text-align: center;
-      padding-left: 10px;
-      max-width: 1000px;
-      font-family: raleway; }
-
 
 /* FIN GRID INDEX*/
 /* GRID SOBRE NOSOTROS*/
